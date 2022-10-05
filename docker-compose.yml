@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vue:
+    build: .
+    image: vueapp:0.0.2
+    container_name: "vue_app_container"
+    ports:
+      - "8080:8080"
